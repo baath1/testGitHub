@@ -18,21 +18,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nlB-fc-FoP">
-                                <rect key="frame" x="66" y="169" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.12549019610000001" green="0.17254901959999999" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="tintColor" red="0.12549019610000001" green="0.17254901959999999" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4pf-UG-ccB">
-                                <rect key="frame" x="215" y="451" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Udder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4pf-UG-ccB">
+                                <rect key="frame" x="83" y="97" width="248" height="89.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="43"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fresh Milk, On Demand" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eth-3b-pgB">
+                                <rect key="frame" x="45.5" y="188.5" width="323" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="4pf-UG-ccB" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.6" id="Be3-vW-HTm"/>
+                            <constraint firstItem="4pf-UG-ccB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="53" id="FRZ-Z5-YKt"/>
+                            <constraint firstItem="Eth-3b-pgB" firstAttribute="height" secondItem="4pf-UG-ccB" secondAttribute="height" multiplier="0.4" id="G9L-uW-Jvj"/>
+                            <constraint firstItem="4pf-UG-ccB" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.1" id="SSe-ep-jLF"/>
+                            <constraint firstItem="Eth-3b-pgB" firstAttribute="width" secondItem="4pf-UG-ccB" secondAttribute="width" multiplier="1.3" id="ftx-HN-eFm"/>
+                            <constraint firstItem="4pf-UG-ccB" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ghh-AP-ku3"/>
+                            <constraint firstItem="Eth-3b-pgB" firstAttribute="top" secondItem="4pf-UG-ccB" secondAttribute="bottom" constant="2" id="vaY-My-nHH"/>
+                            <constraint firstItem="Eth-3b-pgB" firstAttribute="centerX" secondItem="4pf-UG-ccB" secondAttribute="centerX" id="wWQ-nl-YBM"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
